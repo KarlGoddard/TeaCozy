@@ -1,0 +1,136 @@
+body {
+  border: 0;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 10px 9px 10px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+#content {
+  position: relative;
+  top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+}
+
+#top.image {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+}
+
+h1, h2, h3, h4 {
+  line-height: 0px;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  width:100%;
+  height:90px;
+  background-color: black;
+}
+
+#mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.row {
+  display: flex;
+}
+
+.teamonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamonth img {
+  height: 200px;
+  width: 300px;
+  margin: 0 10px;
+}
+
+#btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+}
+
+#btm.image {
+  background-image: url("../../resources/images/img-locations-background.jpg");
+}
+
+.places {
+  display: flex;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  opacity: 1;
+  width: 300px;
+  height: 260px;
+  margin: 20px;
+}
+
+footer {
+  position: relative;
+  top: 69px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+}
+
+.copyright {
+  display: flex;
+  align-content: flex-start;
+  height: 40px;
+  margin-left: 10px;
+}
